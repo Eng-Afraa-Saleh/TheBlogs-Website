@@ -1,5 +1,5 @@
 
-import ImageMain from '/Article1Images/ImageMain.png'
+import ImageMain from '/images/Article1Images/ImageMain.png'
 
 export interface SectionImage {
   image: string;
