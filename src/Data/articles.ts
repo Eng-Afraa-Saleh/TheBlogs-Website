@@ -1,5 +1,18 @@
 
 import ImageMain from '/images/Article1Images/ImageMain.png'
+import ImageD1 from '/images/Article1Images/ImageD1.png'
+import ImageD2 from '/images/Article1Images/ImageD2.png'
+
+
+import ImageD3 from '/images/Article1Images/ImageD3.png'
+import ImageD4 from '/images/Article1Images/ImageD4.png'
+import ImageD5 from '/images/Article1Images/ImageD5.png'
+import ImageD6 from '/images/Article1Images/ImageD6.png'
+
+import ImageD7 from '/images/Article1Images/ImageD7.png'
+import ImageD8 from '/images/Article1Images/ImageD8.png'
+import ImageD9 from '/images/Article1Images/ImageD9.png'
+
 
 export interface SectionImage {
   image: string;
@@ -67,14 +80,14 @@ export const articles: Article[] = [
 
 
     ],
-    mainImage:ImageMain,
+    mainImage: ImageMain,
     categories: ["Design", "Interface"],
     sections: [
       {
         titleDimg: "Definition: A grid is made up of columns, gutters, and margins that provide a structure for the layout of elements on a page.",
         images: [
           {
-            image: "/images/Article1Images/ImageD1.png",
+            image: ImageD1,
             titleD: ["Definition: A grid is made up of columns, gutters, and margins that provide a structure for the layout of elements on a page."],
             caption: [
               "There are three common grid types used in websites and interfaces: column grid, modular grid, and hierarchical grid.",
@@ -98,7 +111,7 @@ export const articles: Article[] = [
         titleDimg: "Three elements make up any grid: (1) columns, (2) gutters, and (3) margins.",
         images: [
           {
-            image: "/images/Article1Images/ImageD2.png",
+            image: ImageD2,
             titleD: ["Examples of Grids in Use", "Example 1: Hierarchical Grid"],
             caption: [
               "Our first example is from <The New York Times>. This screen utilizes a hierarchical grid to create a newspaper-like reading experience. At desktop screen size, two main columns make up the hierarchical grid. The most important news story takes up the most space in the grid, the left column, followed by secondary and tertiary stories, which take up the smaller column and modules on the right."
@@ -111,7 +124,7 @@ export const articles: Article[] = [
         titleDimg: "The New York Times uses a hierarchical grid to achieve its newspaper-like reading experience. (We highlighted the columns in yellow, the gutters in blue, and the margins in purple.)",
         images: [
           {
-            image: "/images/Article1Images/ImageD3.png",
+            image: ImageD3,
             titleD: ["Example 2: Column Grid"],
             caption: [
               "Our second example is from <Ritual.com>, a vitamin company. This design uses a column grid to create an attractive visual experience. At this screen size, four consistently sized columns make up the grid structure and elements are aligned to and within these columns. The gutters, the spaces in between the columns, are also consistently sized and help the user visually separate the different products. The margins are independently sized and are the same between the left and right sides.",
@@ -125,7 +138,7 @@ export const articles: Article[] = [
         titleDimg: "Ritual’s four-column grid makes scanning products easy. (We highlighted the columns in yellow, the gutters in blue, and the margins in purple.)",
         images: [
           {
-            image: "/images/Article1Images/ImageD4.png",
+            image: ImageD4,
             titleD: ["Example 3: Modular Grid"],
             caption: [
               "Our third example is from <Behance>, a design library. The site’s design uses a modular grid to create a pleasant browsing experience. At desktop size, rows are made up of 4 consistently sized modules. Horizontal gutters are slightly thicker than vertical gutters and the margins are consistently sized on the left and right of the design. Like in previous example, the gutters visually separate each element."
@@ -138,7 +151,7 @@ export const articles: Article[] = [
         titleDimg: "Behance’s design uses a modular grid, which allows users to easily browse. (We highlighted the columns in yellow, the gutters in blue, and the margins in purple.)",
         images: [
           {
-            image: "/images/Article1Images/ImageD5.png",
+            image: ImageD5,
             titleD: ["Example 4: Breaking the Grid"],
             caption: [
               "Our last example is Shrine from Google’s Material Studies. This design uses a column grid, as we can see based on the left navigation, which is 2 columns wide. Look closely and you will see that some product images settle to the margins, while others do not. Breaking the grid like this makes it challenging to focus or quickly scan product images and calls more attention to some products over others. It is okay to break the grid every so often, as long as you have a valid reason for it."
@@ -151,7 +164,7 @@ export const articles: Article[] = [
         titleDimg: "Breaking the grid produces a chaotic browsing experience for users. (We highlighted the columns in yellow, the gutters in blue, and the margins in purple.)",
         images: [
           {
-            image: "/images/Article1Images/ImageD6.png",
+            image: ImageD6,
             titleD: ["Benefits of the Grid"],
             caption: [
               "Using a grid benefits both end users and the designers alike:",
@@ -167,7 +180,7 @@ export const articles: Article[] = [
         titleDimg: "At the mobile size, Behance’s one-column grid (left) was reflowed into a four-column grid structure (right).",
         images: [
           {
-            image: "/images/Article1Images/ImageD7.png",
+            image: ImageD7,
             titleD: ["Choosing and Setting Up Your Grid"],
             caption: [
               "How you use and set up a grid is fundamental to creating well thought out layouts and experiences for your user.",
@@ -183,7 +196,7 @@ export const articles: Article[] = [
         titleDimg: "Easily set the number of columns, the gutter size, and margin size in Figma.",
         images: [
           {
-            image: "/images/Article1Images/ImageD8.png",
+            image: ImageD8,
             titleD: [""],
             caption: [
               "**Always place content within columns, not gutters.** The gutters should remain empty as you place elements on the grid in order to clearly separate and align content and elements.",
@@ -197,7 +210,7 @@ export const articles: Article[] = [
         titleDimg: "Content or elements should be placed within and across columns, not gutters.",
         images: [
           {
-            image: "/images/Article1Images/ImageD9.png",
+            image: ImageD9,
             titleD: [""],
             caption: [
               "**Consider using an 8px grid system.** For most common devices, the screen size in pixels is a multiple of 8. Keeping grid-component values at a multiple of 8 will generally make it easier to scale and implement a grid.",
