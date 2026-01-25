@@ -1,3 +1,6 @@
+
+import ImageMain from '/Article1Images/ImageMain.png'
+
 export interface SectionImage {
   image: string;
   titleD: string[];
@@ -64,7 +67,7 @@ export const articles: Article[] = [
 
 
     ],
-    mainImage: "/images/Article1Images/ImageMain.png",
+    mainImage:ImageMain,
     categories: ["Design", "Interface"],
     sections: [
       {
