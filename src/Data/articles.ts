@@ -13,6 +13,12 @@ import ImageD7 from '/images/Article1Images/ImageD7.png'
 import ImageD8 from '/images/Article1Images/ImageD8.png'
 import ImageD9 from '/images/Article1Images/ImageD9.png'
 
+import ImageMain2 from '/images/Article2Images/ImageMain.png'
+import Image2D1 from '/images/Article2Images/ImageD1.png'
+import Image2D2 from '/images/Article2Images/ImageD2.png'
+import Image2D3 from '/images/Article2Images/ImageD3.png'
+import Image2D4 from '/images/Article2Images/ImageD4.png'
+
 
 export interface SectionImage {
   image: string;
@@ -233,14 +239,14 @@ export const articles: Article[] = [
     title: "UX review presentations",
     date: "Sunday , 1 Jan 2023",
     description: ["How do you create compelling presentations that wow your colleagues and impress your managers?"],
-    mainImage: "/images/Article2Images/ImageMain.png",
+    mainImage:ImageMain2,
     categories: ["Design", "Presentation", "Research"],
     sections: [
       {
         titleDimg: "Introduction to UX Review Presentations",
         images: [
           {
-            image: "/images/Article2Images/ImageD1.png",
+            image:Image2D1,
             titleD: ["presentations are a critical part of the product development process."],
             caption: [
               "They serve as a platform to showcase user experience research, design decisions, usability findings, and potential areas for improvement. Whether you're presenting to designers, developers, or stakeholders, the way you structure and communicate your UX review can significantly influence the direction of a product."
@@ -252,7 +258,7 @@ export const articles: Article[] = [
         titleDimg: "Understanding Your Audience",
         images: [
           {
-            image: "/images/Article2Images/ImageD2.png",
+            image:Image2D2,
             titleD: ["The most important thing is to understand the users' needs."],
             caption: [
               "Before you begin crafting your presentation, it's essential to identify who will be in the room. Are you speaking to product managers, engineers, senior executives, or fellow designers? Each group has different interests and priorities. Tailoring your language, depth of detail, and focus areas based on your audience ensures your presentation resonates with them and keeps them engaged."
@@ -264,7 +270,7 @@ export const articles: Article[] = [
         titleDimg: "Structuring Your Presentation",
         images: [
           {
-            image: "/images/Article2Images/ImageD3.png",
+            image:Image2D3,
             titleD: ["A compelling UX review presentation should follow a clear structure:"],
             caption: [
               "**Introduction:** Briefly state the purpose of the presentation.",
@@ -281,7 +287,7 @@ export const articles: Article[] = [
         titleDimg: "Using Visuals to Tell a Story",
         images: [
           {
-            image: "/images/Article2Images/ImageD4.png",
+            image:Image2D4,
             titleD: ["UX is a visual discipline, so your presentation should reflect that. Avoid dense text slides. Instead, use:"],
             caption: [
               "User journey maps",
