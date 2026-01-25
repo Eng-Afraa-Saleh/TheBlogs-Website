@@ -1,5 +1,27 @@
 
 import ImageMain from '/images/Article1Images/ImageMain.png'
+import ImageMain2 from '/images/Article2Images/ImageMain.png'
+import ImageMain3 from '/images/Article3Images/ImageMain.png'
+import ImageMain4 from '/images/Article4Images/ImageMain.png'
+import ImageMain5 from '/images/Article5Images/ImageMain.png'
+import ImageMain6 from '/images/Article6Images/ImageMain.png'
+import ImageMain7 from '/images/Article7Images/ImageMain.png'
+import ImageMain8 from '/images/Article8Images/ImageMain.png'
+import ImageMain9 from '/images/Article9Images/ImageMain.png'
+import ImageMain10 from '/images/Article10Images/ImageMain.png'
+import ImageMain11 from '/images/Article11Images/ImageMain.png'
+import ImageMain12 from '/images/Article12Images/ImageMain.png'
+import ImageMain13 from '/images/Article13Images/ImageMain.png'
+import ImageMain14 from '/images/Article14Images/ImageMain.png'
+import ImageMain15 from '/images/Article15Images/ImageMain.png'
+import ImageMain16 from '/images/Article16Images/ImageMain.png'
+import ImageMain17 from '/images/Article17Images/ImageMain.png'
+import ImageMain18 from '/images/Article18Images/ImageMain.png'
+import ImageMain19 from '/images/Article19Images/ImageMain.png'
+import ImageMain20 from '/images/Article20Images/ImageMain.png'
+
+
+
 import ImageD1 from '/images/Article1Images/ImageD1.png'
 import ImageD2 from '/images/Article1Images/ImageD2.png'
 
@@ -13,12 +35,10 @@ import ImageD7 from '/images/Article1Images/ImageD7.png'
 import ImageD8 from '/images/Article1Images/ImageD8.png'
 import ImageD9 from '/images/Article1Images/ImageD9.png'
 
-import ImageMain2 from '/images/Article2Images/ImageMain.png'
 import Image2D1 from '/images/Article2Images/ImageD1.png'
 import Image2D2 from '/images/Article2Images/ImageD2.png'
 import Image2D3 from '/images/Article2Images/ImageD3.png'
 import Image2D4 from '/images/Article2Images/ImageD4.png'
-import ImageMain3 from '/images/Article3Images/ImageMain.png'
 
 
 export interface SectionImage {
@@ -381,14 +401,14 @@ export const articles: Article[] = [
     title: "Building your API Stack",
     date: "Sunday , 1 Jan 2023",
     description: ["The rise of RESTful APIs has been met by a rise in tools for creating, testing, and manag..."],
-    mainImage: "/images/Article4Images/ImageMain.png",
+    mainImage:ImageMain4,
     categories: ["Research", "Design"],
     sections: [
       {
         titleDimg: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, accusamus.",
         images: [
           {
-            image: "/images/Article1Images/ImageD1.png",
+            image:ImageD1,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -401,7 +421,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD2.png",
+            image:ImageD2,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -415,7 +435,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD3.png",
+            image:ImageD3,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -431,7 +451,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD4.png",
+            image:ImageD4,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -454,14 +474,14 @@ export const articles: Article[] = [
     title: "Building your API Stack",
     date: "Sunday , 1 Jan 2023",
     description: ["Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?"],
-    mainImage: "/images/Article5Images/ImageMain.png",
+    mainImage: ImageMain5,
     categories: ["Management", "Leadership", "Presentation"],
     sections: [
       {
         titleDimg: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, accusamus.",
         images: [
           {
-            image: "/images/Article1Images/ImageD1.png",
+            image:ImageD1,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -474,7 +494,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD2.png",
+            image:ImageD2,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -488,7 +508,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD3.png",
+            image:ImageD3,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -504,7 +524,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD4.png",
+            image:ImageD4,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -527,14 +547,14 @@ export const articles: Article[] = [
     title: "PM mental models",
     date: "Sunday , 1 Jan 2023",
     description: ["Mental models are simple expressions of complex processes or relationships."],
-    mainImage: "/images/Article6Images/ImageMain.png",
+    mainImage:ImageMain6,
     categories: ["Frameworks", "Product", "Research"],
     sections: [
       {
         titleDimg: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, accusamus.",
         images: [
           {
-            image: "/images/Article1Images/ImageD1.png",
+            image:ImageD1,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -547,7 +567,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD2.png",
+            image:ImageD2,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -561,7 +581,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD3.png",
+            image: ImageD3,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -577,7 +597,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD4.png",
+            image: ImageD4,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -600,14 +620,14 @@ export const articles: Article[] = [
     title: "What is Wireframing?",
     date: "Sunday , 1 Jan 2023",
     description: ["Introduction to Wireframing and its Principles. Learn from the best in the industry."],
-    mainImage: "/images/Article7Images/ImageMain.png",
+    mainImage:ImageMain7,
     categories: ["Research", "Design", "Presentation"],
     sections: [
       {
         titleDimg: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, accusamus.",
         images: [
           {
-            image: "/images/Article1Images/ImageD1.png",
+            image: ImageD1,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -620,7 +640,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD2.png",
+            image: ImageD2,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -634,7 +654,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD3.png",
+            image: ImageD3,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -650,7 +670,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD4.png",
+            image: ImageD4,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -673,14 +693,14 @@ export const articles: Article[] = [
     title: "How collaboration makes us better designers",
     date: "Sunday , 1 Jan 2023",
     description: ["Collaboration can make our teams stronger, and our individual designs better."],
-    mainImage: "/images/Article8Images/ImageMain.png",
+    mainImage: ImageMain8,
     categories: ["Design", "Research", "Presentation"],
     sections: [
       {
         titleDimg: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, accusamus.",
         images: [
           {
-            image: "/images/Article1Images/ImageD1.png",
+            image: ImageD1,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -693,7 +713,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD2.png",
+            image: ImageD2,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -707,7 +727,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD3.png",
+            image: ImageD3,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -723,7 +743,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD4.png",
+            image: ImageD4,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -746,14 +766,14 @@ export const articles: Article[] = [
     title: "Our top 10 Javascript frameworks to use",
     date: "Sunday , 1 Jan 2023",
     description: ["JavaScript frameworks make development easy with extensive features and functionalities."],
-    mainImage: "/images/Article9Images/ImageMain.png",
+    mainImage:ImageMain9,
     categories: ["Software Development", "Tools", "SaaS"],
     sections: [
       {
         titleDimg: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, accusamus.",
         images: [
           {
-            image: "/images/Article1Images/ImageD1.png",
+            image: ImageD1,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -766,7 +786,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD2.png",
+            image: ImageD2,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -780,7 +800,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD3.png",
+            image: ImageD3,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -796,7 +816,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD4.png",
+            image: ImageD4,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -819,14 +839,14 @@ export const articles: Article[] = [
     title: "Podcast: Creating a better CX Community",
     date: "Sunday , 1 Jan 2023",
     description: ["Starting a community doesn’t need to be complicated, but how do you get started?"],
-    mainImage: "/images/Article10Images/ImageMain.png",
+    mainImage:ImageMain10,
     categories: ["Podcasts", "Customer Success", "Presentation"],
     sections: [
       {
         titleDimg: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, accusamus.",
         images: [
           {
-            image: "/images/Article1Images/ImageD1.png",
+            image: ImageD1,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -839,7 +859,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD2.png",
+            image: ImageD2,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -853,7 +873,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD3.png",
+            image: ImageD3,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -869,7 +889,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD4.png",
+            image: ImageD4,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -892,14 +912,14 @@ export const articles: Article[] = [
     title: "Podcast: Creating a better CX Community",
     date: "Sunday , 1 Jan 2023",
     description: ["Starting a community doesn’t need to be complicated, but how do you get started?"],
-    mainImage: "/images/Article11Images/ImageMain.png",
+    mainImage:ImageMain11,
     categories: ["Podcasts", "Customer Success", "Presentation"],
     sections: [
       {
         titleDimg: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, accusamus.",
         images: [
           {
-            image: "/images/Article1Images/ImageD1.png",
+            image: ImageD1,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -912,7 +932,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD2.png",
+            image: ImageD2,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -926,7 +946,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD3.png",
+            image: ImageD3,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -942,7 +962,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD4.png",
+            image: ImageD4,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -965,14 +985,14 @@ export const articles: Article[] = [
     title: "Podcast: Creating a better CX Community",
     date: "Sunday , 1 Jan 2023",
     description: ["Starting a community doesn’t need to be complicated, but how do you get started?"],
-    mainImage: "/images/Article12Images/ImageMain.png",
+    mainImage:ImageMain12,
     categories: ["Podcasts", "Customer Success", "Presentation"],
     sections: [
       {
         titleDimg: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, accusamus.",
         images: [
           {
-            image: "/images/Article1Images/ImageD1.png",
+            image: ImageD1,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -985,7 +1005,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD2.png",
+            image: ImageD2,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -999,7 +1019,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD3.png",
+            image: ImageD3,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1015,7 +1035,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD4.png",
+            image: ImageD4,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1038,14 +1058,14 @@ export const articles: Article[] = [
     title: "Podcast: Creating a better CX Community",
     date: "Sunday , 1 Jan 2023",
     description: ["Starting a community doesn’t need to be complicated, but how do you get started?"],
-    mainImage: "/images/Article13Images/ImageMain.png",
+    mainImage:ImageMain13,
     categories: ["Podcasts", "Customer Success", "Presentation"],
     sections: [
       {
         titleDimg: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, accusamus.",
         images: [
           {
-            image: "/images/Article1Images/ImageD1.png",
+            image: ImageD1,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1058,7 +1078,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD2.png",
+            image: ImageD2,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1072,7 +1092,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD3.png",
+            image: ImageD3,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1088,7 +1108,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD4.png",
+            image: ImageD4,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1111,14 +1131,14 @@ export const articles: Article[] = [
     title: "Podcast: Creating a better CX Community",
     date: "Sunday , 1 Jan 2023",
     description: ["Starting a community doesn’t need to be complicated, but how do you get started?"],
-    mainImage: "/images/Article14Images/ImageMain.png",
+    mainImage: ImageMain14,
     categories: ["Podcasts", "Customer Success", "Presentation"],
     sections: [
       {
         titleDimg: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, accusamus.",
         images: [
           {
-            image: "/images/Article1Images/ImageD1.png",
+            image: ImageD1,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1131,7 +1151,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD2.png",
+            image: ImageD2,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1145,7 +1165,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD3.png",
+            image: ImageD3,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1161,7 +1181,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD4.png",
+            image: ImageD4,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1184,14 +1204,14 @@ export const articles: Article[] = [
     title: "Building your API Stack",
     date: "Sunday , 1 Jan 2023",
     description: ["The rise of RESTful APIs has been met by a rise in tools for creating, testing, and manag..."],
-    mainImage: "/images/Article15Images/ImageMain.png",
+    mainImage:ImageMain15,
     categories: ["Research", "Design"],
     sections: [
       {
         titleDimg: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, accusamus.",
         images: [
           {
-            image: "/images/Article1Images/ImageD1.png",
+            image: ImageD1,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1204,7 +1224,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD2.png",
+            image: ImageD2,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1218,7 +1238,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD3.png",
+            image: ImageD3,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1234,7 +1254,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD4.png",
+            image: ImageD4,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1257,14 +1277,14 @@ export const articles: Article[] = [
     title: "Building your API Stack",
     date: "Sunday , 1 Jan 2023",
     description: ["Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?"],
-    mainImage: "/images/Article16Images/ImageMain.png",
+    mainImage:ImageMain16,
     categories: ["Management", "Leadership", "Presentation"],
     sections: [
       {
         titleDimg: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, accusamus.",
         images: [
           {
-            image: "/images/Article1Images/ImageD1.png",
+            image: ImageD1,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1277,7 +1297,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD2.png",
+            image: ImageD2,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1291,7 +1311,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD3.png",
+            image: ImageD3,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1307,7 +1327,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD4.png",
+            image: ImageD4,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1330,14 +1350,14 @@ export const articles: Article[] = [
     title: "PM mental models",
     date: "Sunday , 1 Jan 2023",
     description: ["Mental models are simple expressions of complex processes or relationships."],
-    mainImage: "/images/Article17Images/ImageMain.png",
+    mainImage: ImageMain17,
     categories: ["Frameworks", "Product", "Research"],
     sections: [
       {
         titleDimg: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, accusamus.",
         images: [
           {
-            image: "/images/Article1Images/ImageD1.png",
+            image: ImageD1,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1350,7 +1370,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD2.png",
+            image: ImageD2,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1364,7 +1384,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD3.png",
+            image: ImageD3,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1380,7 +1400,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD4.png",
+            image: ImageD4,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1403,14 +1423,14 @@ export const articles: Article[] = [
     title: "What is Wireframing?",
     date: "Sunday , 1 Jan 2023",
     description: ["Introduction to Wireframing and its Principles. Learn from the best in the industry."],
-    mainImage: "/images/Article18Images/ImageMain.png",
+    mainImage:ImageMain18,
     categories: ["Research", "Design", "Presentation"],
     sections: [
       {
         titleDimg: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, accusamus.",
         images: [
           {
-            image: "/images/Article1Images/ImageD1.png",
+            image: ImageD1,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1423,7 +1443,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD2.png",
+            image: ImageD2,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1437,7 +1457,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD3.png",
+            image: ImageD3,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1453,7 +1473,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD4.png",
+            image: ImageD4,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1476,14 +1496,14 @@ export const articles: Article[] = [
     title: "How collaboration makes us better designers",
     date: "Sunday , 1 Jan 2023",
     description: ["Collaboration can make our teams stronger, and our individual designs better."],
-    mainImage: "/images/Article19Images/ImageMain.png",
+    mainImage: ImageMain19,
     categories: ["Design", "Research", "Presentation"],
     sections: [
       {
         titleDimg: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, accusamus.",
         images: [
           {
-            image: "/images/Article1Images/ImageD1.png",
+            image: ImageD1,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1496,7 +1516,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD2.png",
+            image: ImageD2,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1510,7 +1530,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD3.png",
+            image: ImageD3,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1526,7 +1546,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD4.png",
+            image: ImageD4,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1549,14 +1569,14 @@ export const articles: Article[] = [
     title: "Our top 10 Javascript frameworks to use",
     date: "Sunday , 1 Jan 2023",
     description: ["JavaScript frameworks make development easy with extensive features and functionalities."],
-    mainImage: "/images/Article20Images/ImageMain.png",
+    mainImage:ImageMain20,
     categories: ["Software Development", "Tools", "SaaS"],
     sections: [
       {
         titleDimg: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, accusamus.",
         images: [
           {
-            image: "/images/Article1Images/ImageD1.png",
+            image: ImageD1,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1569,7 +1589,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD2.png",
+            image: ImageD2,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1583,7 +1603,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD3.png",
+            image: ImageD3,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -1599,7 +1619,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD4.png",
+            image: ImageD4,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
