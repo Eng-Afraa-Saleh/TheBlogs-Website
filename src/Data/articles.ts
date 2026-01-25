@@ -18,6 +18,7 @@ import Image2D1 from '/images/Article2Images/ImageD1.png'
 import Image2D2 from '/images/Article2Images/ImageD2.png'
 import Image2D3 from '/images/Article2Images/ImageD3.png'
 import Image2D4 from '/images/Article2Images/ImageD4.png'
+import ImageMain3 from '/images/Article3Images/ImageMain.png'
 
 
 export interface SectionImage {
@@ -307,14 +308,14 @@ export const articles: Article[] = [
     title: "Migrating to Linear 101",
     date: "Sunday , 1 Jan 2023",
     description: ["Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get..."],
-    mainImage: "/images/Article3Images/ImageMain.png",
+    mainImage: ImageMain3,
     categories: ["Research", "Design"],
     sections: [
       {
         titleDimg: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, accusamus.",
         images: [
           {
-            image: "/images/Article1Images/ImageD1.png",
+            image:ImageD1,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -327,7 +328,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD2.png",
+            image:ImageD2,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -341,7 +342,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD3.png",
+            image:ImageD3,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
@@ -357,7 +358,7 @@ export const articles: Article[] = [
         titleDimg: "Lorem ipsum dolor sit amet consectetur",
         images: [
           {
-            image: "/images/Article1Images/ImageD4.png",
+            image:ImageD4,
             titleD: ["Lorem ipsum dolor sit amet consectetur"],
             caption: [
               "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius saepe vero soluta magni unde dicta!",
