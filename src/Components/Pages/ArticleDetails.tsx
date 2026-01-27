@@ -39,7 +39,7 @@ const fadeInUp = {
 
   return (  
     <>
-      <button  onClick={() => navigate("/")} className="fixed left-10 z-50 bg-white dark:bg-gray-800 p-2 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 transition">
+      <button  onClick={() => navigate("/")} className="m-1 bg-white dark:bg-gray-800 p-2 rounded-lg shadow hover:bg-gray-100 dark:hover:bg-gray-700 transition">
       <IoMdArrowRoundBack className="w-6 h-6 text-purple-400" /></button>
 
 <div className="w-full px-12 py-10 text-[#090D1F] dark:text-white bg-white dark:bg-[#090D1F]">
