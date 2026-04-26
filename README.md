@@ -10,7 +10,7 @@ A high-end, responsive, and fully functional blog platform built with modern web
 [![Deployed on GitHub Pages](https://img.shields.io/badge/Deployed-GitHub_Pages-success?style=for-the-badge&logo=github)](https://pages.github.com/)
 
 ## 🚀 Live Demo
-**[Click here to view the live project](#)** *(Replace '#' with your actual GitHub Pages URL)*
+**[Click here to view the live project](https://eng-afraa-saleh.github.io/TheBlogs-Website/)** 
 
 ---
 
