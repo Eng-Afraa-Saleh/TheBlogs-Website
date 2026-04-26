@@ -15,7 +15,7 @@ const Navbar = () => {
           transition={{ duration: 0.5 }}
           className="text-xl font-bold text-gray-800 dark:text-white"
         >
-          User Name
+         Hello
         </motion.div>
 
         <div className='md:hidden'>
@@ -50,7 +50,7 @@ const Navbar = () => {
           transition={{ duration: 0.3 }}
           className=' fixed inset-0 bg-white dark:bg-[#090D1F] text-[#090D1F] dark:text-white flex flex-col justify-between items-center z-50'>
 
-          <div className='pt-20 text-center text-lg font-inter'>User Name</div>
+          <div className='pt-20 text-center text-lg font-inter'>Hello</div>
           <ul className='space-y-6 text-lg text-center'>
             <li><Link onClick={() => setMenuOpen(false)} to="/">Blogs</Link></li>
             <li><Link onClick={() => setMenuOpen(false)} to="/">Products</Link></li>
